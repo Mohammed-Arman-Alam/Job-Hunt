@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { use } from 'react';
 import { Link } from 'react-router';
+import { AuthContext } from '../authProvider/AuthProvider';
 
 const LoginPage = () => {
-    const handleLogin =()=>{
-
+    const {loginUser} = use(AuthContext);
+    const handleLogin =e=>{
+        e.preventDefault();
+        const form = e.target;
+        const email = form.email.value;
+        const password = form.password.value;
+        loginUser(email, password)
+        .then(result=>{
+        })
+        .catch(error=>{
+        })
     }
     return (
         <div className="hero bg-base-100 my-8 rounded-2xl py-12">
@@ -18,9 +28,9 @@ const LoginPage = () => {
                 <div className="card-body bg-[#87CEEB20] rounded-xl">
                     <form onSubmit={handleLogin} className="fieldset">
                         <label className="label font-semibold">Email</label>
-                        <input type="email" className="input rounded-xl" placeholder="Email" />
+                        <input type="email" className="input rounded-xl" placeholder="Email" name='email'/>
                         <label className="label font-semibold">Password</label>
-                        <input type="password" className="input rounded-xl" placeholder="Password" />
+                        <input type="password" className="input rounded-xl" placeholder="Password" name='password'/>
                         <p className='font-bold my-2'>Forget Password ?</p>
                         <button type='submit' className="btn mt-4 bg-[#87CEEE] font-bold text-white text-xl">Login</button>
                     </form>

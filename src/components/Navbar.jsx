@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router';
 import { AuthContext } from '../authProvider/AuthProvider';
 
 const Navbar = () => {
-    const {user} = use(AuthContext);
+    const {user, logOut} = use(AuthContext);
     const link =
     <>
         <NavLink>Home</NavLink>
@@ -34,7 +34,7 @@ const Navbar = () => {
                     user ? 
                     (<>
                      <img src="" alt="" />
-                     <Link className='btn rounded-xl bg-[#87CEEB] text-white font-semibold text-lg p-5'>Logout</Link>
+                     <Link className='btn rounded-xl bg-[#87CEEB] text-white font-semibold text-lg p-5' onClick={logOut}>Logout</Link>
                     </>) :
                     (<>
                         <Link to='/Register' className='btn rounded-xl bg-[#87CEEB] text-white font-semibold text-lg p-5'>Register</Link>
