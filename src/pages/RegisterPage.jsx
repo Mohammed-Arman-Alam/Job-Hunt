@@ -4,7 +4,7 @@ import { AuthContext } from '../authProvider/AuthProvider';
 import { auth } from '../firebase/firebase.config';
 
 const RegisterPage = () => {
-    const {createUser} = use(AuthContext);
+    const {createUser,  updateUser} = use(AuthContext);
     const [errorMessage, setErroMessage]= useState("");
     const handleRegister =e=>{
         e.preventDefault();
@@ -15,7 +15,9 @@ const RegisterPage = () => {
         const password = form.password.value;
         createUser(email, password)
         .then(result=>{
-            
+            updateUser({displayName: name, photoURL : url})
+            .then()
+            .catch()
         })
         .catch(error=>{
             setErroMessage(error.message);
