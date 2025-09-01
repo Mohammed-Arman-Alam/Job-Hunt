@@ -37,8 +37,8 @@ const Navbar = () => {
                      <Link className='btn rounded-xl bg-[#87CEEB] text-white font-semibold text-lg p-5'>Logout</Link>
                     </>) :
                     (<>
-                        <Link className='btn rounded-xl bg-[#87CEEB] text-white font-semibold text-lg p-5'>Register</Link>
-                        <Link className='btn rounded-xl bg-[#87CEEB] text-white font-semibold text-lg p-5'>Login</Link>
+                        <Link to='/Register' className='btn rounded-xl bg-[#87CEEB] text-white font-semibold text-lg p-5'>Register</Link>
+                        <Link to='/Login' className='btn rounded-xl bg-[#87CEEB] text-white font-semibold text-lg p-5'>Login</Link>
                     </>
                         
                     )
