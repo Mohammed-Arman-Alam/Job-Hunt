@@ -34,7 +34,7 @@ const Navbar = () => {
                     user ? 
                     (<>
                      <Link to='/Profile'><img src={user.photoURL} alt="profile" className='h-9 rounded-full'/></Link>
-                     <Link className='btn rounded-xl bg-[#87CEEB] text-white font-semibold text-lg p-5' onClick={logOut}>Logout</Link>
+                     <button className='btn rounded-xl bg-[#87CEEB] text-white font-semibold text-lg p-5' onClick={logOut}>Logout</button>
                     </>) :
                     (<>
                         <Link to='/Register' className='btn rounded-xl bg-[#87CEEB] text-white font-semibold text-lg p-5'>Register</Link>

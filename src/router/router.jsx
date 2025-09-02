@@ -3,6 +3,7 @@ import HomeLayout from "../layout/HomeLayout";
 import RegisterPage from "../pages/RegisterPage";
 import LoginPage from "../pages/LoginPage";
 import Profile from "../pages/Profile";
+import PrivateRoute from "../authProvider/PrivateRoute";
 
 
 const router = createBrowserRouter([
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
             },
             {
                 path:'/Profile',
-                Component:Profile
+                element:<PrivateRoute><Profile></Profile></PrivateRoute>
             }
         ]
     },
