@@ -33,7 +33,7 @@ const Navbar = () => {
                 {
                     user ? 
                     (<>
-                     <img src={user.photoURL} alt="" className='h-9 rounded-full'/>
+                     <Link to='/Profile'><img src={user.photoURL} alt="profile" className='h-9 rounded-full'/></Link>
                      <Link className='btn rounded-xl bg-[#87CEEB] text-white font-semibold text-lg p-5' onClick={logOut}>Logout</Link>
                     </>) :
                     (<>

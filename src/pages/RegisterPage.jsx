@@ -36,9 +36,9 @@ const RegisterPage = () => {
                 <div className="card-body bg-[#87CEEB20] rounded-xl">
                     <form onSubmit={handleRegister} className="fieldset">
                         <label className="label font-semibold">Name</label>
-                        <input type="text" className="input rounded-xl" placeholder="Name"  name='name' required/>
+                        <input type="text" className="input rounded-xl" placeholder="Name"  name='name' />
                         <label className="label font-semibold">Profile Picture</label>
-                        <input type="text" className="input rounded-xl" placeholder="Photo Url" name='url' required/>
+                        <input type="text" className="input rounded-xl" placeholder="Photo Url" name='url' />
                         <label className="label font-semibold">Email</label>
                         <input type="email" className="input rounded-xl" placeholder="Email" name='email' required/>
                         <label className="label font-semibold">Password</label>
