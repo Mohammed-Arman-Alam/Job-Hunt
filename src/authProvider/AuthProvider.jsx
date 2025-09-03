@@ -21,13 +21,12 @@ const AuthProvider = ({children}) => {
     }
     const updateUser =(updatedData)=>{
         setLoading(true);
-        setUser(updatedData);
         return updateProfile(auth.currentUser, updatedData);
     }
     useEffect(()=>{
         const unSubscribe = onAuthStateChanged(auth, (currentUSer)=>{
             setUser(currentUSer);
-            setLoading(false);
+            setLoading(false)
         })
         return ()=>{
             unSubscribe()
@@ -39,7 +38,9 @@ const AuthProvider = ({children}) => {
         loginUser,
         logOut,
         updateUser,
-        loading
+        setUser,
+        loading,
+        setLoading
     }
     return (
         <AuthContext value={userInfo}>
