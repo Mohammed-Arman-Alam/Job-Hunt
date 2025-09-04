@@ -25,11 +25,11 @@ const RegisterPage = () => {
         });
     }
     return (
-        <div className="hero bg-base-100 my-8 rounded-2xl py-12 px-8">
+        <div className="hero bg-base-100 my-8 rounded-2xl py-12">
             <div className="hero-content flex-col lg:flex-row">
                 <div>
-                <h1 className="text-5xl font-bold">Welcome to  <span className='text-[#87CEEF] font-bold'>JobHunt</span></h1>
-                <p className="py-5 w-10/12 text-[#00000060]">
+                <h1 className="text-5xl font-bold text-center sm:text-start">Welcome to  <span className='text-[#87CEEF] font-bold'>JobHunt</span></h1>
+                <p className="py-5 w-10/12 text-[#87CEEB80] hidden sm:inline-flex">
                     Looking For a job? Without wasting time register and start looking for job matching your skill & ability. 
                 </p>
                 </div>

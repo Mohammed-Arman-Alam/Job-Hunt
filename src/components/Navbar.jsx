@@ -13,8 +13,8 @@ const Navbar = () => {
         <div className="navbar bg-base-100 shadow-sm py-4 px-8 rounded-2xl">
             <div className="navbar-start">
                 <div className="dropdown">
-                <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+                <div tabIndex={0} role="button" className="lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
                 </div>
                 <ul
                     tabIndex={0}
@@ -22,7 +22,7 @@ const Navbar = () => {
                     {link}
                 </ul>
                 </div>
-                <Link className="text-3xl font-bold text-[#87CEEF] ">JobHunt</Link>
+                <Link className="text-3xl font-bold text-[#87CEEF] hidden sm:inline">JobHunt</Link>
             </div>
             <div className="navbar-center hidden lg:flex justify-between">
                 <ul className="menu menu-horizontal px-1 flex gap-4">
@@ -33,7 +33,7 @@ const Navbar = () => {
                 {
                     user ? 
                     (<>
-                     <Link to='/Profile'><img src={user.photoURL} alt="profile" className='h-9 rounded-full'/></Link>
+                     <Link to='/Profile'><img src={user.photoURL} alt="profile" className='h-9 w-9 rounded-full'/></Link>
                      <button className='btn rounded-xl bg-[#87CEEB] text-white font-semibold text-lg p-5' onClick={logOut}>Logout</button>
                     </>) :
                     (<>

@@ -1,0 +1,297 @@
+[
+  {
+    "id": "comp-001",
+    "name": "TechNova Solutions",
+    "logo": "https://example.com/logos/technova.png",
+    "location": "San Francisco, CA",
+    "website": "https://www.technova.com",
+    "industry": "Information Technology",
+    "jobs": [
+      {
+        "id": "job-001",
+        "title": "Frontend Developer",
+        "bannerImage": "https://example.com/banners/frontend.png",
+        "location": "Remote",
+        "salary": "$70,000 - $90,000",
+        "jobType": "Full-time",
+        "description": "We are seeking a skilled Frontend Developer to build responsive and interactive web applications.",
+        "requirements": [
+          "Proficiency in HTML, CSS, JavaScript",
+          "Experience with React or Vue",
+          "Strong understanding of responsive design",
+          "Good problem-solving skills"
+        ]
+      },
+      {
+        "id": "job-002",
+        "title": "Backend Engineer",
+        "bannerImage": "https://example.com/banners/backend.png",
+        "location": "San Francisco, CA",
+        "salary": "$85,000 - $110,000",
+        "jobType": "Full-time",
+        "description": "Looking for a Backend Engineer to design and maintain APIs and scalable server-side applications.",
+        "requirements": [
+          "Experience with Node.js or Python",
+          "Knowledge of databases (SQL & NoSQL)",
+          "Familiarity with cloud services (AWS, GCP)",
+          "Strong debugging and optimization skills"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "comp-002",
+    "name": "GreenLeaf Marketing",
+    "logo": "https://example.com/logos/greenleaf.png",
+    "location": "New York, NY",
+    "website": "https://www.greenleafmarketing.com",
+    "industry": "Marketing & Advertising",
+    "jobs": [
+      {
+        "id": "job-003",
+        "title": "Digital Marketing Specialist",
+        "bannerImage": "https://example.com/banners/marketing.png",
+        "location": "New York, NY",
+        "salary": "$50,000 - $65,000",
+        "jobType": "Full-time",
+        "description": "Join our team to create digital marketing campaigns that drive engagement and growth.",
+        "requirements": [
+          "Knowledge of SEO/SEM strategies",
+          "Experience with Google Analytics & Ads",
+          "Content creation and social media skills",
+          "Strong communication abilities"
+        ]
+      },
+      {
+        "id": "job-004",
+        "title": "Graphic Designer",
+        "bannerImage": "https://example.com/banners/designer.png",
+        "location": "Remote",
+        "salary": "$40,000 - $55,000",
+        "jobType": "Part-time",
+        "description": "We need a creative Graphic Designer to design marketing assets and branding materials.",
+        "requirements": [
+          "Proficiency in Adobe Photoshop & Illustrator",
+          "Experience in creating digital and print assets",
+          "Creative mindset with attention to detail",
+          "Ability to meet deadlines"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "comp-003",
+    "name": "FinEdge Capital",
+    "logo": "https://example.com/logos/finedge.png",
+    "location": "Chicago, IL",
+    "website": "https://www.finedgecapital.com",
+    "industry": "Finance",
+    "jobs": [
+      {
+        "id": "job-005",
+        "title": "Financial Analyst",
+        "bannerImage": "https://example.com/banners/finance.png",
+        "location": "Chicago, IL",
+        "salary": "$60,000 - $80,000",
+        "jobType": "Full-time",
+        "description": "Analyze financial data and provide insights for investment decisions.",
+        "requirements": [
+          "Strong Excel and financial modeling skills",
+          "Knowledge of financial regulations",
+          "Analytical and detail-oriented",
+          "Bachelor’s degree in Finance"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "comp-004",
+    "name": "HealthFirst Clinics",
+    "logo": "https://example.com/logos/healthfirst.png",
+    "location": "Houston, TX",
+    "website": "https://www.healthfirstclinics.com",
+    "industry": "Healthcare",
+    "jobs": [
+      {
+        "id": "job-006",
+        "title": "Registered Nurse",
+        "bannerImage": "https://example.com/banners/nurse.png",
+        "location": "Houston, TX",
+        "salary": "$65,000 - $85,000",
+        "jobType": "Full-time",
+        "description": "Provide patient care and assist doctors in day-to-day clinical tasks.",
+        "requirements": [
+          "Valid RN license",
+          "Strong interpersonal skills",
+          "Ability to work in fast-paced environments",
+          "Compassionate and patient-centered care"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "comp-005",
+    "name": "EduSpark Academy",
+    "logo": "https://example.com/logos/eduspark.png",
+    "location": "Boston, MA",
+    "website": "https://www.edusparkacademy.com",
+    "industry": "Education",
+    "jobs": [
+      {
+        "id": "job-007",
+        "title": "Math Teacher",
+        "bannerImage": "https://example.com/banners/math.png",
+        "location": "Boston, MA",
+        "salary": "$45,000 - $60,000",
+        "jobType": "Full-time",
+        "description": "Teach mathematics to high school students using modern teaching methods.",
+        "requirements": [
+          "Bachelor’s degree in Mathematics",
+          "Strong communication skills",
+          "Passion for teaching",
+          "Experience with digital learning tools"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "comp-006",
+    "name": "AeroLogistics",
+    "logo": "https://example.com/logos/aerologistics.png",
+    "location": "Atlanta, GA",
+    "website": "https://www.aerologistics.com",
+    "industry": "Logistics",
+    "jobs": [
+      {
+        "id": "job-008",
+        "title": "Logistics Coordinator",
+        "bannerImage": "https://example.com/banners/logistics.png",
+        "location": "Atlanta, GA",
+        "salary": "$55,000 - $70,000",
+        "jobType": "Full-time",
+        "description": "Coordinate and manage supply chain operations across multiple regions.",
+        "requirements": [
+          "Knowledge of logistics software",
+          "Problem-solving and organizational skills",
+          "Ability to work under pressure",
+          "Experience in supply chain management"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "comp-007",
+    "name": "CreativeHive Studios",
+    "logo": "https://example.com/logos/creativehive.png",
+    "location": "Los Angeles, CA",
+    "website": "https://www.creativehivestudios.com",
+    "industry": "Media & Entertainment",
+    "jobs": [
+      {
+        "id": "job-009",
+        "title": "Video Editor",
+        "bannerImage": "https://example.com/banners/video.png",
+        "location": "Los Angeles, CA",
+        "salary": "$45,000 - $65,000",
+        "jobType": "Full-time",
+        "description": "Edit and produce video content for digital campaigns and commercials.",
+        "requirements": [
+          "Proficiency in Adobe Premiere Pro",
+          "Experience with After Effects",
+          "Creativity and attention to detail",
+          "Ability to meet tight deadlines"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "comp-008",
+    "name": "AgriGrowth Farms",
+    "logo": "https://example.com/logos/agrigrowth.png",
+    "location": "Kansas City, MO",
+    "website": "https://www.agrigrowthfarms.com",
+    "industry": "Agriculture",
+    "jobs": [
+      {
+        "id": "job-010",
+        "title": "Agricultural Scientist",
+        "bannerImage": "https://example.com/banners/agriculture.png",
+        "location": "Kansas City, MO",
+        "salary": "$55,000 - $75,000",
+        "jobType": "Full-time",
+        "description": "Research and implement innovative farming solutions.",
+        "requirements": [
+          "Degree in Agricultural Science",
+          "Experience in crop research",
+          "Strong analytical skills",
+          "Passion for sustainability"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "comp-009",
+    "name": "UrbanBuild Constructions",
+    "logo": "https://example.com/logos/urbanbuild.png",
+    "location": "Dallas, TX",
+    "website": "https://www.urbanbuild.com",
+    "industry": "Construction",
+    "jobs": [
+      {
+        "id": "job-011",
+        "title": "Civil Engineer",
+        "bannerImage": "https://example.com/banners/civil.png",
+        "location": "Dallas, TX",
+        "salary": "$75,000 - $95,000",
+        "jobType": "Full-time",
+        "description": "Plan and oversee construction projects ensuring quality and safety standards.",
+        "requirements": [
+          "Bachelor’s degree in Civil Engineering",
+          "Knowledge of AutoCAD",
+          "Project management experience",
+          "Strong analytical skills"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "comp-010",
+    "name": "ShopEase Online",
+    "logo": "https://example.com/logos/shopease.png",
+    "location": "Seattle, WA",
+    "website": "https://www.shopease.com",
+    "industry": "E-commerce",
+    "jobs": [
+      {
+        "id": "job-012",
+        "title": "E-commerce Manager",
+        "bannerImage": "https://example.com/banners/ecommerce.png",
+        "location": "Seattle, WA",
+        "salary": "$80,000 - $105,000",
+        "jobType": "Full-time",
+        "description": "Manage online store operations, marketing, and customer experience.",
+        "requirements": [
+          "Experience in e-commerce platforms (Shopify, Magento)",
+          "Knowledge of online marketing strategies",
+          "Strong analytical and leadership skills",
+          "Excellent communication"
+        ]
+      },
+      {
+        "id": "job-013",
+        "title": "Customer Support Specialist",
+        "bannerImage": "https://example.com/banners/support.png",
+        "location": "Remote",
+        "salary": "$35,000 - $45,000",
+        "jobType": "Full-time",
+        "description": "Provide excellent customer service and resolve issues promptly.",
+        "requirements": [
+          "Good communication skills",
+          "Experience in customer support",
+          "Ability to work remotely",
+          "Problem-solving attitude"
+        ]
+      }
+    ]
+  }
+]
