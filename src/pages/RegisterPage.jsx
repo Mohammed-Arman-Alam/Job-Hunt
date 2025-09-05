@@ -1,7 +1,7 @@
 import React, { use, useState } from 'react';
 import { Link } from 'react-router';
 import { AuthContext } from '../authProvider/AuthProvider';
-import { auth } from '../firebase/firebase.config';
+
 
 const RegisterPage = () => {
     const {createUser,  updateUser, setLoading} = use(AuthContext);

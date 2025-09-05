@@ -2,7 +2,7 @@
   {
     "id": "comp-001",
     "name": "TechNova Solutions",
-    "logo": "https://example.com/logos/technova.png",
+    "logo": "/src/assets/tech-nova.png",
     "location": "San Francisco, CA",
     "website": "https://www.technova.com",
     "industry": "Information Technology",
@@ -42,7 +42,7 @@
   {
     "id": "comp-002",
     "name": "GreenLeaf Marketing",
-    "logo": "https://example.com/logos/greenleaf.png",
+    "logo": "/src/assets/green-leaf.png",
     "location": "New York, NY",
     "website": "https://www.greenleafmarketing.com",
     "industry": "Marketing & Advertising",
@@ -82,7 +82,7 @@
   {
     "id": "comp-003",
     "name": "FinEdge Capital",
-    "logo": "https://example.com/logos/finedge.png",
+    "logo": "/src/assets/fineEdge.png",
     "location": "Chicago, IL",
     "website": "https://www.finedgecapital.com",
     "industry": "Finance",
@@ -107,7 +107,7 @@
   {
     "id": "comp-004",
     "name": "HealthFirst Clinics",
-    "logo": "https://example.com/logos/healthfirst.png",
+    "logo": "/src/assets/healthFirst.png",
     "location": "Houston, TX",
     "website": "https://www.healthfirstclinics.com",
     "industry": "Healthcare",
@@ -132,7 +132,7 @@
   {
     "id": "comp-005",
     "name": "EduSpark Academy",
-    "logo": "https://example.com/logos/eduspark.png",
+    "logo": "src/assets/eduSparks.png",
     "location": "Boston, MA",
     "website": "https://www.edusparkacademy.com",
     "industry": "Education",
@@ -157,7 +157,7 @@
   {
     "id": "comp-006",
     "name": "AeroLogistics",
-    "logo": "https://example.com/logos/aerologistics.png",
+    "logo": "src/assets/aeroLogistics.png",
     "location": "Atlanta, GA",
     "website": "https://www.aerologistics.com",
     "industry": "Logistics",
@@ -182,7 +182,7 @@
   {
     "id": "comp-007",
     "name": "CreativeHive Studios",
-    "logo": "https://example.com/logos/creativehive.png",
+    "logo": "src/assets/creativehive.png",
     "location": "Los Angeles, CA",
     "website": "https://www.creativehivestudios.com",
     "industry": "Media & Entertainment",
@@ -207,7 +207,7 @@
   {
     "id": "comp-008",
     "name": "AgriGrowth Farms",
-    "logo": "https://example.com/logos/agrigrowth.png",
+    "logo": "src/assets/agrigrowth.png",
     "location": "Kansas City, MO",
     "website": "https://www.agrigrowthfarms.com",
     "industry": "Agriculture",
@@ -232,7 +232,7 @@
   {
     "id": "comp-009",
     "name": "UrbanBuild Constructions",
-    "logo": "https://example.com/logos/urbanbuild.png",
+    "logo": "src/assets/urbanbuild.png",
     "location": "Dallas, TX",
     "website": "https://www.urbanbuild.com",
     "industry": "Construction",
@@ -257,7 +257,7 @@
   {
     "id": "comp-010",
     "name": "ShopEase Online",
-    "logo": "https://example.com/logos/shopease.png",
+    "logo": "src/assets/shopease.png",
     "location": "Seattle, WA",
     "website": "https://www.shopease.com",
     "industry": "E-commerce",

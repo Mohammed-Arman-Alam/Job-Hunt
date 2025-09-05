@@ -7,7 +7,6 @@ const Navbar = () => {
     const link =
     <>
         <NavLink>Home</NavLink>
-        <NavLink>Jobs</NavLink>
     </>
     return (
         <div className="navbar bg-base-100 shadow-sm py-4 px-8 rounded-2xl">

@@ -39,7 +39,7 @@ const Footer = () => {
                     <SocialIcon url="https://github.com/" style={{ height: 30, width: 30 }}/>
                 </div>
             </nav>
-        </footer>  
+        </footer> 
     );
 };
 
