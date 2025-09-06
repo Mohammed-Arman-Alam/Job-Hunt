@@ -2,7 +2,7 @@
   {
     "id": "comp-001",
     "name": "TechNova Solutions",
-    "logo": "/src/assets/tech-nova.png",
+    "logo": "https://i.ibb.co.com/hF0fZQwJ/tech-nova.png",
     "location": "San Francisco, CA",
     "website": "https://www.technova.com",
     "industry": "Information Technology",
@@ -42,7 +42,7 @@
   {
     "id": "comp-002",
     "name": "GreenLeaf Marketing",
-    "logo": "/src/assets/green-leaf.png",
+    "logo": "https://i.ibb.co.com/ymzfVPLS/green-leaf.png",
     "location": "New York, NY",
     "website": "https://www.greenleafmarketing.com",
     "industry": "Marketing & Advertising",
@@ -82,7 +82,7 @@
   {
     "id": "comp-003",
     "name": "FinEdge Capital",
-    "logo": "/src/assets/fineEdge.png",
+    "logo": "https://i.ibb.co.com/PZJrK2gt/fineEdge.png",
     "location": "Chicago, IL",
     "website": "https://www.finedgecapital.com",
     "industry": "Finance",
@@ -107,7 +107,7 @@
   {
     "id": "comp-004",
     "name": "HealthFirst Clinics",
-    "logo": "/src/assets/healthFirst.png",
+    "logo": "https://i.ibb.co.com/Z6xWtKt0/health-First.png",
     "location": "Houston, TX",
     "website": "https://www.healthfirstclinics.com",
     "industry": "Healthcare",
@@ -132,7 +132,7 @@
   {
     "id": "comp-005",
     "name": "EduSpark Academy",
-    "logo": "src/assets/eduSparks.png",
+    "logo": "https://i.ibb.co.com/s965RXCj/edu-Sparks.png",
     "location": "Boston, MA",
     "website": "https://www.edusparkacademy.com",
     "industry": "Education",
@@ -157,7 +157,7 @@
   {
     "id": "comp-006",
     "name": "AeroLogistics",
-    "logo": "src/assets/aeroLogistics.png",
+    "logo": "https://i.ibb.co.com/TD5Wdkst/aero-Logistics.png",
     "location": "Atlanta, GA",
     "website": "https://www.aerologistics.com",
     "industry": "Logistics",
@@ -182,7 +182,7 @@
   {
     "id": "comp-007",
     "name": "CreativeHive Studios",
-    "logo": "src/assets/creativehive.png",
+    "logo": "https://i.ibb.co.com/4RywxGCc/creativehive.png",
     "location": "Los Angeles, CA",
     "website": "https://www.creativehivestudios.com",
     "industry": "Media & Entertainment",
@@ -207,7 +207,7 @@
   {
     "id": "comp-008",
     "name": "AgriGrowth Farms",
-    "logo": "src/assets/agrigrowth.png",
+    "logo": "https://i.ibb.co.com/G32C3mbk/agrigrowth.png",
     "location": "Kansas City, MO",
     "website": "https://www.agrigrowthfarms.com",
     "industry": "Agriculture",
@@ -232,7 +232,7 @@
   {
     "id": "comp-009",
     "name": "UrbanBuild Constructions",
-    "logo": "src/assets/urbanbuild.png",
+    "logo": "https://i.ibb.co.com/d0wgmchf/urbanbuild.png",
     "location": "Dallas, TX",
     "website": "https://www.urbanbuild.com",
     "industry": "Construction",
@@ -257,7 +257,7 @@
   {
     "id": "comp-010",
     "name": "ShopEase Online",
-    "logo": "src/assets/shopease.png",
+    "logo": "https://i.ibb.co.com/9z4xxMq/shopease.png",
     "location": "Seattle, WA",
     "website": "https://www.shopease.com",
     "industry": "E-commerce",

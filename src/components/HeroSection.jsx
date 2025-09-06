@@ -4,7 +4,7 @@ import heroimg from '../assets/hero-img.png'
 const HeroSection = () => {
     return (
         <div
-      className="bg-base-100 my-8 rounded-2xl relative bg-cover bg-center bg-[url(./bg-img.png)]">
+      className="bg-base-100 my-8 rounded-2xl relative bg-cover bg-center bg-[url('https://i.ibb.co.com/B5ft40s0/bg-img.png')]">
       <div className='py-18 p-5 sm:pl-20'>
         <div className='z-10'>
             <h1 className='text-5xl font-bold sm:pt-10 text-center sm:text-start'>Find Your Dream <br />Job With JobHunt
