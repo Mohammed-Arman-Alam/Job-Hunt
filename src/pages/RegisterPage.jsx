@@ -1,11 +1,13 @@
 import React, { use, useState } from 'react';
-import { Link } from 'react-router';
+import { Link, useLocation, useNavigate } from 'react-router';
 import { AuthContext } from '../authProvider/AuthProvider';
 
 
 const RegisterPage = () => {
     const {createUser,  updateUser, setLoading} = use(AuthContext);
-    const [errorMessage, setErroMessage]= useState("");
+    const [errorMessage, setErroMessage]= useState(null);
+    const location = useLocation();
+    const navigate = useNavigate();
     const handleRegister =e=>{
         e.preventDefault();
         const form = e.target;
@@ -13,12 +15,17 @@ const RegisterPage = () => {
         const url = form.url.value;
         const email = form.email.value;
         const password = form.password.value;
+        if(password.length<6){
+            setErroMessage("Password should be at least 6 character")
+            return;
+        }
         createUser(email, password)
         .then(result=>{
             updateUser({displayName: name, photoURL : url})
             .then()
             .catch()
             setLoading(false);
+            navigate(`${location.state ? location.state : '/'}`);
         })
         .catch(error=>{
             setErroMessage(error.message);
@@ -49,8 +56,11 @@ const RegisterPage = () => {
                     <p className='text-center'>Already have an account? Please <Link to="/Login" className='text-[#77CEFF] font-bold'>login</Link></p>
                     <>
                         {
-                            (errorMessage =="Firebase: Error (auth/email-already-in-use).") && 
-                            <p>Email already in use please <Link to="/Login" className='text-[#77CEFF] font-bold'>login</Link> or use other email.</p>
+                            (errorMessage =="Firebase: Error (auth/email-already-in-use).") ?
+                            (<p>Email already in use please <Link to="/Login" className='text-[#77CEFF] font-bold'>login</Link> or use other email.</p>) 
+                            : (
+                                <p className='text-center text-red-500 font-semibold text-sm'>{errorMessage}</p>
+                            )
                         }
                     </>
                 </div>

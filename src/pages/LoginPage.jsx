@@ -1,23 +1,38 @@
-import React, { use } from 'react';
-import { Link, Navigate } from 'react-router';
+import React, { use, useRef, useState } from 'react';
+import { Link, useLocation, useNavigate } from 'react-router';
 import { AuthContext } from '../authProvider/AuthProvider';
-import { useNavigate } from 'react-router';
 
 const LoginPage = () => {
-    const {loginUser} = use(AuthContext);
+    const {loginUser, forgetPassword} = use(AuthContext);
+    const [errorMessage, setErroMessage] = useState('');
     const navigate = useNavigate();
+    const location = useLocation();
+    const emailRef = useRef();
     const handleLogin =e=>{
         e.preventDefault();
         const form = e.target;
         const email = form.email.value;
         const password = form.password.value;
+        if(password.length<6){
+            setErroMessage("Password must be at leat 6 digit");
+            return;
+        }
         loginUser(email, password)
         .then(result=>{
-            navigate('/Profile');
+            navigate(`${location.state ? location.state : '/'}`);
         })
         .catch(error=>{
+            setErroMessage(error.message);
         })
     }
+    const handleForgetPassword =()=>{
+        const email = emailRef.current.value;
+        forgetPassword(email)
+        .then(()=>{alert('Check your email & reset password')})
+        .catch()
+
+        }
+    
     return (
         <div className="hero bg-base-100 my-8 rounded-2xl py-12">
             <div className="hero-content flex-col lg:flex-row">
@@ -31,11 +46,14 @@ const LoginPage = () => {
                 <div className="card-body bg-[#87CEEB20] rounded-xl">
                     <form onSubmit={handleLogin} className="fieldset">
                         <label className="label font-semibold">Email</label>
-                        <input type="email" className="input rounded-xl" placeholder="Email" name='email' required/>
+                        <input type="email" className="input rounded-xl" placeholder="Email" name='email' ref={emailRef} required/>
                         <label className="label font-semibold">Password</label>
                         <input type="password" className="input rounded-xl" placeholder="Password" name='password' required/>
-                        <p className='font-bold my-2'>Forget Password ?</p>
+                        <button onClick={handleForgetPassword} className='font-extrabold my-2'>Forget Password ?</button>
                         <button type='submit' className="btn mt-4 bg-[#87CEEE] font-bold text-white text-xl">Login</button>
+                        {
+                            (errorMessage) && <p className='text-center text-red-500 font-semibold text-sm'>{errorMessage}</p>
+                        }
                     </form>
                     <p className='text-center'>New to <span className='text-[#87CEEF] font-bold'>JobHunt</span>? Please <Link to="/Register" className='text-[#77CEFF] font-bold'>Register</Link>.</p>
                 </div>

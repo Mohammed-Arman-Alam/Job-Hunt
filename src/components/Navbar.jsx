@@ -25,7 +25,6 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex justify-between">
                 <ul className="menu menu-horizontal px-1 flex gap-4">
-                {link}
                 </ul>
             </div>
             <div className="navbar-end gap-2">
@@ -42,7 +41,6 @@ const Navbar = () => {
                         
                     )
                 }
-                
             </div>
         </div>
     );

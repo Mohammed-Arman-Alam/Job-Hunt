@@ -6,6 +6,7 @@ import Profile from "../pages/Profile";
 import PrivateRoute from "../authProvider/PrivateRoute";
 import HomePage from "../pages/HomePage";
 import CompanyDetails from "../pages/CompanyDetails";
+import ErrorPage from "../pages/ErrorPage";
 
 
 const router = createBrowserRouter([
@@ -31,14 +32,16 @@ const router = createBrowserRouter([
             },
             {
                 path:'Company/Details/:id',
-                element:<CompanyDetails></CompanyDetails>,
+                element:<PrivateRoute><CompanyDetails></CompanyDetails></PrivateRoute>,
                 loader: ()=>fetch('/job.json'),
                 hydrateFallbackElement: <h1>Loading..........</h1>
+            },
+            {
+                path: '/*',
+                Component: ErrorPage,
             }
         ]
     },
-    {
-       
-    }
+    
 ])
 export default router;

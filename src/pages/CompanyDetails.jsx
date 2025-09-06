@@ -12,7 +12,6 @@ const CompanyDetails = () => {
     const selestedCompany = companyData.find((details) => details.id == id);
     setCompany(selestedCompany);
  }, [id]);
- console.log(company);
  if(!company){
      return<h1>Loading</h1>;
  }
@@ -20,7 +19,7 @@ const CompanyDetails = () => {
     
     <div className="pt-8">
       <div className="bg-white p-6 rounded-2xl shadow-md mb-8">
-        <div className="flex items-center gap-10">
+        <div className="flex items-center sm:gap-10 flex-col sm:flex-row">
           <img src={company?.logo} alt={company?.name} className="w-40 h-40 rounded-lg" />
           <div>
             <h1 className="text-3xl font-bold">{company.name}</h1>

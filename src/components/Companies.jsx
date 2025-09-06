@@ -12,7 +12,6 @@ const Companies = () => {
         setCompanies(data);
       })
   }, []);
-  console.log(companies)
     return (
         <div className='bg-base-100 rounded-2xl my-8'>
             <div>
